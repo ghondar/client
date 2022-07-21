@@ -1,0 +1,34 @@
+{
+  "name": "prueba-client",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chicho-ui/material": "0.0.29",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/base": "^5.0.0-alpha.89",
+    "@mui/icons-material": "5.8.4",
+    "@mui/lab": "5.0.0-alpha.90",
+    "@mui/material": "^5.9.0",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@originjs/vite-plugin-federation": "^1.1.7",
+    "@unleash/proxy-client-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.5",
+    "unleash-proxy-client": "^2.0.1",
+    "valtio": "1.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.0"
+  }
+}
